@@ -1,0 +1,22 @@
+2025-11-27 12:47:38,008 - image_processing.parser - INFO - FUNCTION_STARTED - Parsing command line arguments
+2025-11-27 12:47:59,961 - image_processing.parser - INFO - FUNCTION_STARTED - Parsing command line arguments
+2025-11-27 12:47:59,962 - image_processing.parser - INFO - ARGUMENTS_PARSED - Image path: image.jpg, Save path: inverted_image.jpg
+2025-11-27 12:47:59,963 - image_processing.parser - INFO - PATHS_VALIDATED - Paths are valid
+2025-11-27 12:47:59,963 - image_processing - INFO - IMAGE_READ_STARTED - Reading image from: image.jpg
+2025-11-27 12:47:59,964 - image_processing - ERROR - PROGRAM_FAILED - Program terminated with error: [WinError 2] Не удается найти указанный файл: 'image.jpg'
+2025-11-27 12:49:22,505 - image_processing.parser - INFO - FUNCTION_STARTED - Parsing command line arguments
+2025-11-27 12:49:22,507 - image_processing.parser - INFO - ARGUMENTS_PARSED - Image path: image.jpg, Save path: inverted_image.jpg
+2025-11-27 12:49:22,508 - image_processing.parser - INFO - PATHS_VALIDATED - Paths are valid
+2025-11-27 12:49:22,508 - image_processing - INFO - IMAGE_READ_STARTED - Reading image from: image.jpg
+2025-11-27 12:49:22,521 - image_processing - INFO - IMAGE_READ_SUCCESSFUL - Image loaded successfully, shape: (1024, 1024, 3)
+2025-11-27 12:49:22,522 - image_processing - INFO - IMAGE_SIZE - Width: 1024, Height: 1024
+2025-11-27 12:49:22,522 - histogram - INFO - HISTOGRAM_CALCULATION_STARTED
+2025-11-27 12:49:22,526 - histogram - INFO - HISTOGRAM_CALCULATION_COMPLETED - Histograms calculated successfully
+2025-11-27 12:49:22,527 - histogram - INFO - HISTOGRAM_DISPLAY_STARTED - Displaying histogram plot
+2025-11-27 12:49:28,232 - histogram - INFO - HISTOGRAM_DISPLAYED_SUCCESSFULLY - Histogram shown to user
+2025-11-27 12:49:28,232 - image_processing - INFO - IMAGE_INVERSION_STARTED - Inverting image pixels
+2025-11-27 12:49:28,235 - image_processing - INFO - IMAGE_INVERSION_COMPLETED - Image inverted successfully
+2025-11-27 12:49:28,235 - image_processing - INFO - IMAGE_DISPLAY_STARTED - Displaying original and processed images
+2025-11-27 12:49:32,577 - image_processing - INFO - IMAGE_DISPLAY_COMPLETED - Images displayed successfully
+2025-11-27 12:49:32,578 - image_processing - INFO - IMAGE_SAVE_STARTED - Saving image to: inverted_image.jpg
+2025-11-27 12:49:32,585 - image_processing - INFO - IMAGE_SAVE_SUCCESSFUL - Image saved successfully to: inverted_image.jpg
